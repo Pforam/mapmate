@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "256747937217",
+    "project_id": "mapmate-2026",
+    "storage_bucket": "mapmate-2026.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:256747937217:android:d90df3dd45879a24e2e340",
+        "android_client_info": {
+          "package_name": "com.example.mapmate"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1tnkzWR4WjMvFciAD4bpDHk_UwGB-F5I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
