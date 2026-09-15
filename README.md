@@ -16,17 +16,17 @@ MapMate is a collaborative mobile application built with Flutter that combines s
 
 Follow these steps to set up and run the project locally on your machine:
 
-### 1. Clone the Repository
+1. Clone the Repository
 Open your terminal and clone the project:
 ```bash
 git clone [https://github.com/YOUR_USERNAME/mapmate.git](https://github.com/YOUR_USERNAME/mapmate.git)
 cd mapmate
 
-### 2. Install Dependencies
+2. Install Dependencies
 Run the following command to download all required packages specified in pubspec.yaml:
 flutter pub get
 
-### 3. Firebase Configuration
+3. Firebase Configuration
 This project uses Firebase. Since configuration files contain environment keys, they are excluded from Git. You must link your own Firebase account:
 
 Make sure you have the Firebase CLI installed and logged in:
@@ -34,7 +34,7 @@ firebase login
 Run the FlutterFire configuration tool to generate your local firebase_options.dart:
 flutterfire configure
 
-### 4. Google Maps API Keys Setup
+4. Google Maps API Keys Setup
 You need a Google Maps API key with Maps SDK for Android/iOS, Places API, and Distance Matrix API enabled.
 
 For Android: Open android/app/src/main/AndroidManifest.xml and make sure your API key is inserted:
@@ -45,7 +45,7 @@ For Android: Open android/app/src/main/AndroidManifest.xml and make sure your AP
 For iOS: Open ios/Runner/AppDelegate.swift and ensure your API key is configured:
 GMSServices.provideAPIKey("YOUR_GOOGLE_MAPS_API_KEY")
 
-### 5. Run the Application
+5. Run the Application
 Connect a physical device or start an Android/iOS emulator, then run:
 flutter run
 
