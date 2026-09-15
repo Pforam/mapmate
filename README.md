@@ -12,7 +12,7 @@ MapMate is a collaborative mobile application built with Flutter that combines s
 
 ---
 
-## 🛠️ Prerequisites & Setup Guide for Teammates
+## 🛠️ Prerequisites & Setup Guide
 
 Follow these steps to set up and run the project locally on your machine:
 
